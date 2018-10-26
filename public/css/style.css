@@ -1,0 +1,42 @@
+body {
+  background-image: url("./brewdog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+label {
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+select {
+  position: relative;
+  font-family: Arial;
+  color: black;
+  display: block;
+  margin: auto auto;
+  font-size: 20px;
+}
