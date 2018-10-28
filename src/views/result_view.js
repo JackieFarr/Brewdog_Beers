@@ -26,12 +26,10 @@ ResultView.prototype.display = function (beers) {
     beerTagline.textContent = beer.tagline;
     allBeers.appendChild(beerTagline);
 
-    ResultView.prototype.createImage = function (beer){
-      const image = document.createElement('img');
-      image.classList.add('large');
-      image.src = beer.image;
-      return image;
-    }
+    const beerImage = document.createElement("img");
+    beerImage.src = beer.image_url;
+    this.container.appendChild(beerImage);
+
     const beerDescription = document.createElement("p")
     beerDescription.textContent = `Description: ${ beer.description } `;
     allBeers.appendChild(beerDescription);

@@ -6,35 +6,78 @@ body {
   font-family: 'Anton', sans-serif;
 }
 
+/* TEXT: "BREWDOG BEER" */
 h1 {
   color: white;
   text-align: center;
   font-size: 80px;
 }
 
+/* TEXT: "SELECT A BEER" */
 h2 {
-  color: white;
+  color: #0c2633;
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
+
 }
 
+/* TEXT: BEER TAGLINE */
 h3 {
-  color: white;
+  box-sizing: border-box;
+  color: #195370;
   text-align: center;
   font-size: 35px;
+  text-decoration: underline;
+
 }
 
-label {
+/* TEXT: DESCRIPTION, ABV & FOOD PAIRING */
+p {
+  box-sizing: border-box;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+}
+
+
+/* .container {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+} */
+
+/* BLUE BACKGROUND */
+.container-section {
+  box-sizing: border-box;
+  background-color: #33BEFF;
+  opacity: 0.9;
+  border: 3px solid white;
+  padding: 50px;
+}
+
+/* BEER IMAGE */
+img {
+  box-sizing: border-box;
+  width: 10%;
+  float: left;
+  padding: 20px;
+  border: none;
+}
+
+/* label {
   color: white;
   text-align: center;
   display: block;
   margin: 0 auto;
   font-size: 30px;
-}
+} */
 
+/* DROPDOWN MENU  */
 select {
   position: relative;
-  font-family: Arial;
+  font-family: 'Anton', sans-serif;
   color: black;
   display: block;
   margin: auto auto;
